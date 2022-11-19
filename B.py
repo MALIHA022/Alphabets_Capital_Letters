@@ -6,7 +6,7 @@ num = size
 for row in range(1,num+1):
     for col in range(1,num+1):
         value = (num+1)//2
-        if row == 1 or col == 1 or col ==num or row==var or row == num:
+        if row == 1 or col == 1 or col ==num or row==value or row == num:
             sign = "*"
             if col == num and (row==1 or row == num or row == (num+1)//2):
                 sign = " "
@@ -22,4 +22,3 @@ for row in range(1,num+1):
         else:
             print(" ",end="")
     print()
-    
